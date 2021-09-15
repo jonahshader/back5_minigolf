@@ -55,6 +55,7 @@ else
 /// @DnDAction : YoYo Games.Drawing.Draw_Ellipse
 /// @DnDVersion : 1
 /// @DnDHash : 282BD6EA
+/// @DnDDisabled : 1
 /// @DnDArgument : "x1" "- BALL_RADIUS"
 /// @DnDArgument : "x1_relative" "1"
 /// @DnDArgument : "y1" "-BALL_RADIUS"
@@ -64,7 +65,12 @@ else
 /// @DnDArgument : "y2" "BALL_RADIUS"
 /// @DnDArgument : "y2_relative" "1"
 /// @DnDArgument : "fill" "1"
-draw_ellipse(x + - BALL_RADIUS, y + -BALL_RADIUS, x + BALL_RADIUS, y + BALL_RADIUS, 0);
+
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Self
+/// @DnDVersion : 1
+/// @DnDHash : 22989BCB
+draw_self();
 
 /// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1

@@ -1,6 +1,9 @@
 {
-  "spriteId": null,
-  "solid": false,
+  "spriteId": {
+    "name": "spr_wall_slant_test",
+    "path": "sprites/spr_wall_slant_test/spr_wall_slant_test.yy",
+  },
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,

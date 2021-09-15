@@ -54,7 +54,7 @@ if(mouse_dragging)
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 2ED24E85
-/// @DnDArgument : "code" "// calculate hit magnitude$(13_10)var mouse_x_to_ball = x - mouse_x;$(13_10)var mouse_y_to_ball = y - mouse_y;$(13_10)var magnitude = sqrt(mouse_x_to_ball * mouse_x_to_ball + mouse_y_to_ball * mouse_y_to_ball);$(13_10)$(13_10)$(13_10)magnitude *= MOUSE_DIST_TO_SPEED;$(13_10)if (magnitude > MAX_HIT_SPEED) {$(13_10)	magnitude = MAX_HIT_SPEED;$(13_10)}$(13_10)$(13_10)hit_magnitude = magnitude;$(13_10)"
+/// @DnDArgument : "code" "// calculate hit magnitude$(13_10)var mouse_x_to_ball = x - mouse_x;$(13_10)var mouse_y_to_ball = y - mouse_y;$(13_10)var magnitude = sqrt(mouse_x_to_ball * mouse_x_to_ball + mouse_y_to_ball * mouse_y_to_ball);$(13_10)$(13_10)$(13_10)magnitude *= MOUSE_DIST_TO_SPEED;$(13_10)if (magnitude > MAX_HIT_SPEED) {$(13_10)	magnitude = MAX_HIT_SPEED;$(13_10)}$(13_10)$(13_10)hit_magnitude = magnitude;$(13_10)move_bounce_solid(true);"
 // calculate hit magnitude
 var mouse_x_to_ball = x - mouse_x;
 var mouse_y_to_ball = y - mouse_y;
@@ -67,3 +67,4 @@ if (magnitude > MAX_HIT_SPEED) {
 }
 
 hit_magnitude = magnitude;
+move_bounce_solid(true);
