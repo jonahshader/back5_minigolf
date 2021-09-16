@@ -38,9 +38,3 @@ friction_multiplier = 1.0;
 ready_to_hit = true;
 mouse_dragging = false;
 hit_magnitude = 0;
-
-/// @DnDAction : YoYo Games.Common.Execute_Code
-/// @DnDVersion : 1
-/// @DnDHash : 1D211CC4
-/// @DnDArgument : "code" "move_bounce_solid(true);"
-move_bounce_solid(true);
