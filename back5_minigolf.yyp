@@ -3,6 +3,7 @@
     {"id":{"name":"obj_sand","path":"objects/obj_sand/obj_sand.yy",},"order":1,},
     {"id":{"name":"obj_hole","path":"objects/obj_hole/obj_hole.yy",},"order":1,},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},"order":0,},
+    {"id":{"name":"rm_hole_1","path":"rooms/rm_hole_1/rm_hole_1.yy",},"order":1,},
     {"id":{"name":"spr_wall_slant_test","path":"sprites/spr_wall_slant_test/spr_wall_slant_test.yy",},"order":1,},
     {"id":{"name":"snd_ball_wall_bounce","path":"sounds/snd_ball_wall_bounce/snd_ball_wall_bounce.yy",},"order":0,},
     {"id":{"name":"obj_grassfloor","path":"objects/obj_grassfloor/obj_grassfloor.yy",},"order":0,},
@@ -27,6 +28,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_hole_1","path":"rooms/rm_hole_1/rm_hole_1.yy",},},
     {"roomId":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
   ],
   "Folders": [
