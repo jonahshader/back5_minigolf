@@ -1,14 +1,11 @@
-/// @DnDAction : YoYo Games.Common.If_Expression
-/// @DnDVersion : 1
-/// @DnDHash : 1540EAAB
-/// @DnDArgument : "expr" "ready_to_hit"
-if(ready_to_hit)
-{
-	/// @DnDAction : YoYo Games.Common.Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 7DF7AFF4
-	/// @DnDParent : 1540EAAB
-	/// @DnDArgument : "expr" "true"
-	/// @DnDArgument : "var" "mouse_dragging"
-	mouse_dragging = true;
+if (global.game_running) {
+	var nearest_ball_to_mouse = instance_nearest(mouse_x, mouse_y, obj_ball);
+	var this = instance_nearest(x, y, obj_ball);
+
+
+	if(nearest_ball_to_mouse == this) {
+		if(ready_to_hit) {
+			mouse_dragging = true;
+		}
+	}
 }
