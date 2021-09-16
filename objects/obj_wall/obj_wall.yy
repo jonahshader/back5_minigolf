@@ -1,6 +1,9 @@
 {
-  "spriteId": null,
-  "solid": false,
+  "spriteId": {
+    "name": "spr_wall_slant_test",
+    "path": "sprites/spr_wall_slant_test/spr_wall_slant_test.yy",
+  },
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -18,7 +21,12 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [],
-  "properties": [],
+  "properties": [
+    {"varType":0,"value":"0.9","rangeEnabled":true,"rangeMin":0.0,"rangeMax":1.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"bounciness","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":5,"value":"snd_ball_wall_bounce","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[
+        "GMSound",
+      ],"resourceVersion":"1.0","name":"bounce_sound","tags":[],"resourceType":"GMObjectProperty",},
+  ],
   "overriddenProperties": [],
   "parent": {
     "name": "walls",
