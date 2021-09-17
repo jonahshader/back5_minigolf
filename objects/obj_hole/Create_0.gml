@@ -12,16 +12,16 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 7974F374
-/// @DnDInput : 2
-/// @DnDArgument : "expr_1" "false"
-/// @DnDArgument : "var" "current_strokes"
-/// @DnDArgument : "var_1" "game_finished"
-current_strokes = 0;
+/// @DnDArgument : "expr" "false"
+/// @DnDArgument : "var" "game_finished"
 game_finished = false;
 
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 2803B755
+/// @DnDInput : 2
 /// @DnDArgument : "value" "true"
 /// @DnDArgument : "var" "game_running"
+/// @DnDArgument : "var_1" "current_strokes"
 global.game_running = true;
+global.current_strokes = 0;
