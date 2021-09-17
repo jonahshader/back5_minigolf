@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 1,
-  "bbox_right": 15,
+  "bbox_right": 31,
   "bbox_top": 1,
-  "bbox_bottom": 15,
+  "bbox_bottom": 31,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 16,
-  "height": 16,
+  "width": 32,
+  "height": 32,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"9c8c1f17-8535-4c4a-ba4d-c6177ed9caad","path":"sprites/spr_wall_wood_angle/spr_wall_wood_angle.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9c8c1f17-8535-4c4a-ba4d-c6177ed9caad","path":"sprites/spr_wall_wood_angle/spr_wall_wood_angle.yy",},"LayerId":{"name":"1d817ab7-31c6-463a-ae46-28a85780e266","path":"sprites/spr_wall_wood_angle/spr_wall_wood_angle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_wall_wood_angle","path":"sprites/spr_wall_wood_angle/spr_wall_wood_angle.yy",},"resourceVersion":"1.0","name":"9c8c1f17-8535-4c4a-ba4d-c6177ed9caad","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a514bb28-494c-4aef-af70-817b2b3c9a08","path":"sprites/spr_wall_wood_angle/spr_wall_wood_angle.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a514bb28-494c-4aef-af70-817b2b3c9a08","path":"sprites/spr_wall_wood_angle/spr_wall_wood_angle.yy",},"LayerId":{"name":"98aa2b42-83e0-4e26-89e0-ac1f93540614","path":"sprites/spr_wall_wood_angle/spr_wall_wood_angle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_wall_wood_angle","path":"sprites/spr_wall_wood_angle/spr_wall_wood_angle.yy",},"resourceVersion":"1.0","name":"a514bb28-494c-4aef-af70-817b2b3c9a08","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_wall_wood_angle","path":"sprites/spr_wall_wood_angle/spr_wall_wood_angle.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"3a77ad69-540f-4ef6-969b-392923e6d82a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9c8c1f17-8535-4c4a-ba4d-c6177ed9caad","path":"sprites/spr_wall_wood_angle/spr_wall_wood_angle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"efd6d44d-316c-40f0-a5d4-51dc2c394db5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a514bb28-494c-4aef-af70-817b2b3c9a08","path":"sprites/spr_wall_wood_angle/spr_wall_wood_angle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1d817ab7-31c6-463a-ae46-28a85780e266","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"98aa2b42-83e0-4e26-89e0-ac1f93540614","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
