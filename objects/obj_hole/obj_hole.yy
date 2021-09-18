@@ -28,7 +28,6 @@
   ],
   "properties": [
     {"varType":1,"value":"4","rangeEnabled":true,"rangeMin":1.0,"rangeMax":8.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"par_strokes","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":1,"value":"9","rangeEnabled":true,"rangeMin":4.0,"rangeMax":16.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"max_strokes","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":1,"value":"1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"level_number","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [],
