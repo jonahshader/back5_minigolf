@@ -12,6 +12,15 @@ if(mouse_dragging)
 	/// @DnDArgument : "var" "mouse_dragging"
 	mouse_dragging = false;
 
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 3037F848
+	/// @DnDParent : 0237B5B7
+	/// @DnDArgument : "expr" "1"
+	/// @DnDArgument : "expr_relative" "1"
+	/// @DnDArgument : "var" "global.current_strokes"
+	global.current_strokes += 1;
+
 	/// @DnDAction : YoYo Games.Common.Execute_Code
 	/// @DnDVersion : 1
 	/// @DnDHash : 749C4C9F

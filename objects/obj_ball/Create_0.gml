@@ -2,24 +2,21 @@
 /// @DnDVersion : 1
 /// @DnDHash : 3B402565
 /// @DnDComment : CONST_FRICTION is applied to the ball every frame it is moving$(13_10)PROPORTIONAL_FRICTION is multiplied by the ball's current speed$(13_10)and then is applied to the ball every frame
-/// @DnDInput : 6
+/// @DnDInput : 5
 /// @DnDArgument : "macro" "CONST_FRICTION"
-/// @DnDArgument : "value" ".03"
+/// @DnDArgument : "value" ".01"
 /// @DnDArgument : "macro_1" "PROPORTIONAL_FRICTION"
-/// @DnDArgument : "value_1" ".01"
-/// @DnDArgument : "macro_2" "BALL_RADIUS"
-/// @DnDArgument : "value_2" "4"
-/// @DnDArgument : "macro_3" "MAX_HIT_SPEED"
-/// @DnDArgument : "value_3" "20"
-/// @DnDArgument : "macro_4" "MOUSE_DIST_TO_SPEED"
-/// @DnDArgument : "value_4" ".2"
-/// @DnDArgument : "macro_5" "HIT_LINE_MAX_LENGTH"
-/// @DnDArgument : "value_5" "(MAX_HIT_SPEED / MOUSE_DIST_TO_SPEED)"
-#macro CONST_FRICTION .03
-#macro PROPORTIONAL_FRICTION .01
-#macro BALL_RADIUS 4
-#macro MAX_HIT_SPEED 20
-#macro MOUSE_DIST_TO_SPEED .2
+/// @DnDArgument : "value_1" ".002"
+/// @DnDArgument : "macro_2" "MAX_HIT_SPEED"
+/// @DnDArgument : "value_2" "8"
+/// @DnDArgument : "macro_3" "MOUSE_DIST_TO_SPEED"
+/// @DnDArgument : "value_3" ".08"
+/// @DnDArgument : "macro_4" "HIT_LINE_MAX_LENGTH"
+/// @DnDArgument : "value_4" "(MAX_HIT_SPEED / MOUSE_DIST_TO_SPEED)"
+#macro CONST_FRICTION .01
+#macro PROPORTIONAL_FRICTION .002
+#macro MAX_HIT_SPEED 8
+#macro MOUSE_DIST_TO_SPEED .08
 #macro HIT_LINE_MAX_LENGTH (MAX_HIT_SPEED / MOUSE_DIST_TO_SPEED)
 
 /// @DnDAction : YoYo Games.Common.Variable
@@ -38,3 +35,16 @@ friction_multiplier = 1.0;
 ready_to_hit = true;
 mouse_dragging = false;
 hit_magnitude = 0;
+
+/// @DnDAction : YoYo Games.Common.If_Undefined
+/// @DnDVersion : 1
+/// @DnDHash : 79F309A1
+/// @DnDDisabled : 1
+/// @DnDArgument : "var" "global.game_state"
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 454F1239
+/// @DnDParent : 79F309A1
+/// @DnDArgument : "value" "GameState.GAME_RUNNING"
+/// @DnDArgument : "var" "game_state"
+global.game_state = GameState.GAME_RUNNING;
