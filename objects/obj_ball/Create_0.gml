@@ -35,3 +35,16 @@ friction_multiplier = 1.0;
 ready_to_hit = true;
 mouse_dragging = false;
 hit_magnitude = 0;
+
+/// @DnDAction : YoYo Games.Common.If_Undefined
+/// @DnDVersion : 1
+/// @DnDHash : 79F309A1
+/// @DnDDisabled : 1
+/// @DnDArgument : "var" "global.game_state"
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 454F1239
+/// @DnDParent : 79F309A1
+/// @DnDArgument : "value" "GameState.GAME_RUNNING"
+/// @DnDArgument : "var" "game_state"
+global.game_state = GameState.GAME_RUNNING;

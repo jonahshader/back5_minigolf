@@ -1,8 +1,8 @@
 /// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1
 /// @DnDHash : 27A0EB5F
-/// @DnDArgument : "expr" "global.game_running"
-if(global.game_running)
+/// @DnDArgument : "expr" "global.game_state == GameState.GAME_RUNNING"
+if(global.game_state == GameState.GAME_RUNNING)
 {
 	/// @DnDAction : YoYo Games.Common.Temp_Variable
 	/// @DnDVersion : 1
