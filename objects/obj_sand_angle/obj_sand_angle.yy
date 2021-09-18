@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "spr_sand",
-    "path": "sprites/spr_sand/spr_sand.yy",
+    "name": "spr_sand_angle",
+    "path": "sprites/spr_sand_angle/spr_sand_angle.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_sand",
+    "path": "objects/obj_sand/obj_sand.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -20,10 +23,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":true,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_ball","path":"objects/obj_ball/obj_ball.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -31,7 +31,7 @@
     "path": "folders/Objects/game/floors.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_sand",
+  "name": "obj_sand_angle",
   "tags": [],
   "resourceType": "GMObject",
 }
