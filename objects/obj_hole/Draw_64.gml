@@ -75,12 +75,12 @@ if(global.game_state != GameState.GAME_RUNNING)
 	/// @DnDVersion : 1
 	/// @DnDHash : 46E3A60E
 	/// @DnDParent : 79582BC6
-	/// @DnDArgument : "x1" "200"
+	/// @DnDArgument : "x1" "150"
 	/// @DnDArgument : "y1" "100"
-	/// @DnDArgument : "x2" "room_width - 200"
+	/// @DnDArgument : "x2" "room_width - 150"
 	/// @DnDArgument : "y2" "room_height - 100"
 	/// @DnDArgument : "fill" "1"
-	draw_rectangle(200, 100, room_width - 200, room_height - 100, 0);
+	draw_rectangle(150, 100, room_width - 150, room_height - 100, 0);
 
 	/// @DnDAction : YoYo Games.Drawing.Set_Color
 	/// @DnDVersion : 1
@@ -113,20 +113,20 @@ if(global.game_state != GameState.GAME_RUNNING)
 	/// @DnDHash : 569D8012
 	/// @DnDParent : 79582BC6
 	/// @DnDArgument : "x" "room_width / 2"
-	/// @DnDArgument : "y" "-20 + room_height / 2"
-	/// @DnDArgument : "caption" ""Level " + string(level_number) + " Complete""
-	draw_text(room_width / 2, -20 + room_height / 2, string("Level " + string(level_number) + " Complete") + "");
+	/// @DnDArgument : "y" "-40 + room_height / 2"
+	/// @DnDArgument : "caption" ""Hole " + string(level_number) + " Complete""
+	draw_text(room_width / 2, -40 + room_height / 2, string("Hole " + string(level_number) + " Complete") + "");
 
 	/// @DnDAction : YoYo Games.Common.Execute_Code
 	/// @DnDVersion : 1
 	/// @DnDHash : 4CBAD7D3
 	/// @DnDParent : 79582BC6
-	/// @DnDArgument : "code" "function drawGameInfo(game_state_text) {$(13_10)	draw_set_halign(fa_center);$(13_10)	draw_set_valign(fa_middle);$(13_10)	draw_set_color(0xFF000000);$(13_10)	draw_text(room_width/2, 20 + room_height/2, game_state_text); $(13_10)}$(13_10)$(13_10)var game_state_text = "";$(13_10)switch (global.game_state) {$(13_10)	default:$(13_10)	case GameState.GAME_RUNNING: break;$(13_10)	case GameState.HOLE_IN_ONE: game_state_text = "Hole In One!"; break;$(13_10)	case GameState.BETTER_THAN_ALBATROSS: game_state_text = string(par_strokes - global.current_strokes) + " Under!"; break;$(13_10)	case GameState.ALBATROSS: game_state_text = "Albatross!"; break;$(13_10)	case GameState.EAGLE: game_state_text = "Eagle!"; break;$(13_10)	case GameState.BIRDIE: game_state_text = "Birdie!"; break;$(13_10)	case GameState.PAR: game_state_text = "Par"; break;$(13_10)	case GameState.BOGEY: game_state_text = "Bogey"; break;$(13_10)	case GameState.DOUBLE_BOGEY: game_state_text = "Double Bogey"; break;$(13_10)	case GameState.OVER_MAX: game_state_text = string(global.current_strokes - par_strokes) + " Over..."; break;$(13_10)}$(13_10)$(13_10)drawGameInfo(game_state_text);"
+	/// @DnDArgument : "code" "function drawGameInfo(game_state_text) {$(13_10)	draw_set_halign(fa_center);$(13_10)	draw_set_valign(fa_middle);$(13_10)	draw_set_color(0xFF000000);$(13_10)	draw_text(room_width/2, 00 + room_height/2, game_state_text); $(13_10)}$(13_10)$(13_10)var game_state_text = "";$(13_10)switch (global.game_state) {$(13_10)	default:$(13_10)	case GameState.GAME_RUNNING: break;$(13_10)	case GameState.HOLE_IN_ONE: game_state_text = "Hole In One!"; break;$(13_10)	case GameState.BETTER_THAN_ALBATROSS: game_state_text = string(par_strokes - global.current_strokes) + " Under!"; break;$(13_10)	case GameState.ALBATROSS: game_state_text = "Albatross!"; break;$(13_10)	case GameState.EAGLE: game_state_text = "Eagle!"; break;$(13_10)	case GameState.BIRDIE: game_state_text = "Birdie!"; break;$(13_10)	case GameState.PAR: game_state_text = "Par"; break;$(13_10)	case GameState.BOGEY: game_state_text = "Bogey"; break;$(13_10)	case GameState.DOUBLE_BOGEY: game_state_text = "Double Bogey"; break;$(13_10)	case GameState.OVER_MAX: game_state_text = string(global.current_strokes - par_strokes) + " Over..."; break;$(13_10)}$(13_10)$(13_10)drawGameInfo(game_state_text);$(13_10)$(13_10)draw_set_halign(fa_center);$(13_10)draw_set_valign(fa_middle);$(13_10)draw_set_color(0xFF000000);$(13_10)draw_set_font(fnt_body);$(13_10)draw_text(room_width/2, 40 + room_height/2, "Press any key to continue."); "
 	function drawGameInfo(game_state_text) {
 		draw_set_halign(fa_center);
 		draw_set_valign(fa_middle);
 		draw_set_color(0xFF000000);
-		draw_text(room_width/2, 20 + room_height/2, game_state_text); 
+		draw_text(room_width/2, 00 + room_height/2, game_state_text); 
 	}
 	
 	var game_state_text = "";
@@ -145,39 +145,10 @@ if(global.game_state != GameState.GAME_RUNNING)
 	}
 	
 	drawGameInfo(game_state_text);
-
-	/// @DnDAction : YoYo Games.Switch.Switch
-	/// @DnDVersion : 1
-	/// @DnDHash : 2116157A
-	/// @DnDParent : 79582BC6
-	/// @DnDArgument : "expr" "global.game_state"
-	var l2116157A_0 = global.game_state;
-	switch(l2116157A_0)
-	{
-		/// @DnDAction : YoYo Games.Switch.Case
-		/// @DnDVersion : 1
-		/// @DnDHash : 648216AC
-		/// @DnDParent : 2116157A
-		/// @DnDArgument : "const" "GameState.HOLE_IN_ONE"
-		case GameState.HOLE_IN_ONE:
-		
-			break;
 	
-		/// @DnDAction : YoYo Games.Switch.Case
-		/// @DnDVersion : 1
-		/// @DnDHash : 26855F03
-		/// @DnDParent : 2116157A
-		/// @DnDArgument : "const" "GameState.BETTER_THAN_ALBATROSS"
-		case GameState.BETTER_THAN_ALBATROSS:
-		
-			break;
-	
-		/// @DnDAction : YoYo Games.Switch.Case
-		/// @DnDVersion : 1
-		/// @DnDHash : 7DA24351
-		/// @DnDParent : 2116157A
-		case 0:
-		
-			break;
-	}
+	draw_set_halign(fa_center);
+	draw_set_valign(fa_middle);
+	draw_set_color(0xFF000000);
+	draw_set_font(fnt_body);
+	draw_text(room_width/2, 40 + room_height/2, "Press any key to continue.");
 }
