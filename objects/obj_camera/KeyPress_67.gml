@@ -3,8 +3,8 @@
 /// @DnDHash : 2F99FDA5
 /// @DnDArgument : "var" "current_mode"
 /// @DnDArgument : "not" "1"
-/// @DnDArgument : "value" "4"
-if(!(current_mode == 4))
+/// @DnDArgument : "value" "5"
+if(!(current_mode == 5))
 {
 
 }
