@@ -3,6 +3,7 @@
     {"id":{"name":"obj_sand_angle","path":"objects/obj_sand_angle/obj_sand_angle.yy",},"order":2,},
     {"id":{"name":"obj_sand","path":"objects/obj_sand/obj_sand.yy",},"order":1,},
     {"id":{"name":"obj_hole","path":"objects/obj_hole/obj_hole.yy",},"order":1,},
+    {"id":{"name":"rm_jonah_hole_2","path":"rooms/rm_jonah_hole_2/rm_jonah_hole_2.yy",},"order":2,},
     {"id":{"name":"obj_wall_wood_angle","path":"objects/obj_wall_wood_angle/obj_wall_wood_angle.yy",},"order":5,},
     {"id":{"name":"spr_floor_normal_grass","path":"sprites/spr_floor_normal_grass/spr_floor_normal_grass.yy",},"order":1,},
     {"id":{"name":"spr_wall_wood","path":"sprites/spr_wall_wood/spr_wall_wood.yy",},"order":5,},
@@ -10,6 +11,7 @@
     {"id":{"name":"obj_floor_normal_grass","path":"objects/obj_floor_normal_grass/obj_floor_normal_grass.yy",},"order":0,},
     {"id":{"name":"spr_wall_wood_angle","path":"sprites/spr_wall_wood_angle/spr_wall_wood_angle.yy",},"order":6,},
     {"id":{"name":"spr_background_grass","path":"sprites/spr_background_grass/spr_background_grass.yy",},"order":0,},
+    {"id":{"name":"rm_jonah_hole_1","path":"rooms/rm_jonah_hole_1/rm_jonah_hole_1.yy",},"order":1,},
     {"id":{"name":"obj_wall_wood","path":"objects/obj_wall_wood/obj_wall_wood.yy",},"order":4,},
     {"id":{"name":"spr_sand","path":"sprites/spr_sand/spr_sand.yy",},"order":2,},
     {"id":{"name":"spr_ball","path":"sprites/spr_ball/spr_ball.yy",},"order":2,},
@@ -35,6 +37,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_jonah_hole_2","path":"rooms/rm_jonah_hole_2/rm_jonah_hole_2.yy",},},
+    {"roomId":{"name":"rm_jonah_hole_1","path":"rooms/rm_jonah_hole_1/rm_jonah_hole_1.yy",},},
     {"roomId":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
   ],
   "Folders": [
