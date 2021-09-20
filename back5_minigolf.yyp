@@ -18,6 +18,7 @@
     {"id":{"name":"spr_sand","path":"sprites/spr_sand/spr_sand.yy",},"order":2,},
     {"id":{"name":"rm_max_hole_2","path":"rooms/rm_max_hole_2/rm_max_hole_2.yy",},"order":5,},
     {"id":{"name":"spr_ball","path":"sprites/spr_ball/spr_ball.yy",},"order":2,},
+    {"id":{"name":"rm_max_hole_6","path":"rooms/rm_max_hole_6/rm_max_hole_6.yy",},"order":9,},
     {"id":{"name":"rm_max_hole_5","path":"rooms/rm_max_hole_5/rm_max_hole_5.yy",},"order":8,},
     {"id":{"name":"spr_hole","path":"sprites/spr_hole/spr_hole.yy",},"order":3,},
     {"id":{"name":"spr_sand_angle","path":"sprites/spr_sand_angle/spr_sand_angle.yy",},"order":3,},
@@ -43,6 +44,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_max_hole_6","path":"rooms/rm_max_hole_6/rm_max_hole_6.yy",},},
     {"roomId":{"name":"rm_max_hole_4","path":"rooms/rm_max_hole_4/rm_max_hole_4.yy",},},
     {"roomId":{"name":"rm_max_hole_3","path":"rooms/rm_max_hole_3/rm_max_hole_3.yy",},},
     {"roomId":{"name":"rm_max_hole_2","path":"rooms/rm_max_hole_2/rm_max_hole_2.yy",},},
