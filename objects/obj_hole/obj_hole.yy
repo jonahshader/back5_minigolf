@@ -29,10 +29,7 @@
   ],
   "properties": [
     {"varType":1,"value":"4","rangeEnabled":true,"rangeMin":1.0,"rangeMax":8.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"par_strokes","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":1,"value":"1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"level_number","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":5,"value":"noone","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[
-        "GMRoom",
-      ],"resourceVersion":"1.0","name":"next_hole","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":3,"value":"False","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"first_hole_of_course","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [],
   "parent": {
