@@ -1,0 +1,25 @@
+{
+  "kind": 1,
+  "closed": false,
+  "precision": 4,
+  "points": [
+    {"speed":100.0,"x":0.0,"y":0.0,},
+    {"speed":100.0,"x":25.0,"y":-25.0,},
+    {"speed":100.0,"x":50.0,"y":-25.0,},
+    {"speed":100.0,"x":75.0,"y":0.0,},
+    {"speed":100.0,"x":75.0,"y":-150.0,},
+    {"speed":100.0,"x":-275.0,"y":-150.0,},
+    {"speed":100.0,"x":-325.0,"y":0.0,},
+    {"speed":100.0,"x":-325.0,"y":50.0,},
+    {"speed":100.0,"x":-250.0,"y":50.0,},
+    {"speed":100.0,"x":-250.0,"y":25.0,},
+  ],
+  "parent": {
+    "name": "Paths",
+    "path": "folders/Paths.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "pth_max_hole_5",
+  "tags": [],
+  "resourceType": "GMPath",
+}
