@@ -37,6 +37,7 @@
     {"id":{"name":"obj_water","path":"objects/obj_water/obj_water.yy",},"order":3,},
     {"id":{"name":"spr_water","path":"sprites/spr_water/spr_water.yy",},"order":4,},
     {"id":{"name":"spr_sand_angle","path":"sprites/spr_sand_angle/spr_sand_angle.yy",},"order":3,},
+    {"id":{"name":"pth_test","path":"paths/pth_test/pth_test.yy",},"order":9,},
     {"id":{"name":"fnt_body","path":"fonts/fnt_body/fnt_body.yy",},"order":0,},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":0,},
     {"id":{"name":"pth_max_hole_2","path":"paths/pth_max_hole_2/pth_max_hole_2.yy",},"order":4,},
@@ -107,7 +108,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.4.580",
+    "IDEVersion": "2.3.4.583",
   },
   "resourceVersion": "1.4",
   "name": "back5_minigolf",
