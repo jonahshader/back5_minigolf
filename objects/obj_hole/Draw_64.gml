@@ -114,8 +114,8 @@ if(global.game_state != GameState.GAME_RUNNING)
 	/// @DnDParent : 79582BC6
 	/// @DnDArgument : "x" "room_width / 2"
 	/// @DnDArgument : "y" "-40 + room_height / 2"
-	/// @DnDArgument : "caption" ""Hole " + string(level_number) + " Complete""
-	draw_text(room_width / 2, -40 + room_height / 2, string("Hole " + string(level_number) + " Complete") + "");
+	/// @DnDArgument : "caption" ""Hole " + string(global.level_number) + " Complete""
+	draw_text(room_width / 2, -40 + room_height / 2, string("Hole " + string(global.level_number) + " Complete") + "");
 
 	/// @DnDAction : YoYo Games.Common.Execute_Code
 	/// @DnDVersion : 1
