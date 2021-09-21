@@ -23,7 +23,7 @@
 /// @DnDVersion : 1
 /// @DnDHash : 0D3E3D3A
 /// @DnDComment : friction_multiplier simply multiplies the combined calculated friction from$(13_10)the two macros CONST_FRICTION and PROPORTIONAL_FRICTION. differing$(13_10)surfaces like grass, sand, ice, etc can manipulate this variable when$(13_10)the ball is over that surface. for example, sand might set the$(13_10)friction_multiplier to 3 or something whereas ice would set it to 0.5.$(13_10)$(13_10)ready_to_hit is true when the ball is motionless$(13_10)$(13_10)mouse_dragging is true when the user clicks the screen while ready_to_hit is true$(13_10)$(13_10)hit_magnitude is the speed that will be added when the ball is hit. it is$(13_10)used in the hit line calculation
-/// @DnDInput : 4
+/// @DnDInput : 6
 /// @DnDArgument : "expr" "1.0"
 /// @DnDArgument : "expr_1" "true"
 /// @DnDArgument : "expr_2" "false"
@@ -31,10 +31,14 @@
 /// @DnDArgument : "var_1" "ready_to_hit"
 /// @DnDArgument : "var_2" "mouse_dragging"
 /// @DnDArgument : "var_3" "hit_magnitude"
+/// @DnDArgument : "var_4" "x_last_hit"
+/// @DnDArgument : "var_5" "y_last_hit"
 friction_multiplier = 1.0;
 ready_to_hit = true;
 mouse_dragging = false;
 hit_magnitude = 0;
+x_last_hit = 0;
+y_last_hit = 0;
 
 /// @DnDAction : YoYo Games.Common.If_Undefined
 /// @DnDVersion : 1

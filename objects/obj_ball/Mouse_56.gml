@@ -25,10 +25,13 @@ if(mouse_dragging)
 	/// @DnDVersion : 1
 	/// @DnDHash : 749C4C9F
 	/// @DnDParent : 0237B5B7
-	/// @DnDArgument : "code" "var mouse_x_to_ball = x - mouse_x;$(13_10)var mouse_y_to_ball = y - mouse_y;$(13_10)var magnitude = sqrt(mouse_x_to_ball * mouse_x_to_ball + mouse_y_to_ball * mouse_y_to_ball);$(13_10)$(13_10)mouse_x_to_ball /= magnitude; // normalize$(13_10)mouse_y_to_ball /= magnitude;$(13_10)$(13_10)magnitude *= MOUSE_DIST_TO_SPEED;$(13_10)if (magnitude > MAX_HIT_SPEED) {$(13_10)	magnitude = MAX_HIT_SPEED;$(13_10)}$(13_10)$(13_10)mouse_x_to_ball *= magnitude;$(13_10)mouse_y_to_ball *= magnitude;$(13_10)$(13_10)hspeed += mouse_x_to_ball;$(13_10)vspeed += mouse_y_to_ball;"
+	/// @DnDArgument : "code" "var mouse_x_to_ball = x - mouse_x;$(13_10)var mouse_y_to_ball = y - mouse_y;$(13_10)var magnitude = sqrt(mouse_x_to_ball * mouse_x_to_ball + mouse_y_to_ball * mouse_y_to_ball);$(13_10)$(13_10)x_last_hit = x;	// saves position for current hit$(13_10)y_last_hit = y;$(13_10)$(13_10)mouse_x_to_ball /= magnitude; // normalize$(13_10)mouse_y_to_ball /= magnitude;$(13_10)$(13_10)magnitude *= MOUSE_DIST_TO_SPEED;$(13_10)if (magnitude > MAX_HIT_SPEED) {$(13_10)	magnitude = MAX_HIT_SPEED;$(13_10)}$(13_10)$(13_10)mouse_x_to_ball *= magnitude;$(13_10)mouse_y_to_ball *= magnitude;$(13_10)$(13_10)hspeed += mouse_x_to_ball;$(13_10)vspeed += mouse_y_to_ball;"
 	var mouse_x_to_ball = x - mouse_x;
 	var mouse_y_to_ball = y - mouse_y;
 	var magnitude = sqrt(mouse_x_to_ball * mouse_x_to_ball + mouse_y_to_ball * mouse_y_to_ball);
+	
+	x_last_hit = x;	// saves position for current hit
+	y_last_hit = y;
 	
 	mouse_x_to_ball /= magnitude; // normalize
 	mouse_y_to_ball /= magnitude;
