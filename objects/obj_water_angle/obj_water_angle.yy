@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "spr_sand",
-    "path": "sprites/spr_sand/spr_sand.yy",
+    "name": "spr_water_angle",
+    "path": "sprites/spr_water_angle/spr_water_angle.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_water",
+    "path": "objects/obj_water/obj_water.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -20,9 +23,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_ball","path":"objects/obj_ball/obj_ball.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -30,7 +31,7 @@
     "path": "folders/Objects/game/floors.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_sand",
+  "name": "obj_water_angle",
   "tags": [],
   "resourceType": "GMObject",
 }

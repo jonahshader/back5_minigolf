@@ -135,8 +135,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_ball","path":"objects/obj_ball/obj_ball.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":160.0,"resourceVersion":"1.0","name":"inst_118A149C","tags":[],"resourceType":"GMRInstance",},
         {"properties":[
             {"propertyId":{"name":"par_strokes","path":"objects/obj_hole/obj_hole.yy",},"objectId":{"name":"obj_hole","path":"objects/obj_hole/obj_hole.yy",},"value":"5","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-            {"propertyId":{"name":"level_number","path":"objects/obj_hole/obj_hole.yy",},"objectId":{"name":"obj_hole","path":"objects/obj_hole/obj_hole.yy",},"value":"7","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-            {"propertyId":{"name":"next_hole","path":"objects/obj_hole/obj_hole.yy",},"objectId":{"name":"obj_hole","path":"objects/obj_hole/obj_hole.yy",},"value":"rm_jonah_hole_3","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+            {"propertyId":{"name":"obj_hole","path":"objects/obj_hole/obj_hole.yy",},"objectId":{"name":"obj_hole","path":"objects/obj_hole/obj_hole.yy",},"value":"7","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"obj_hole","path":"objects/obj_hole/obj_hole.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":576.0,"y":160.0,"resourceVersion":"1.0","name":"inst_3C5AFD48","tags":[],"resourceType":"GMRInstance",},
         {"properties":[
             {"propertyId":{"name":"follow_path","path":"objects/obj_camera/obj_camera.yy",},"objectId":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"value":"pth_jonah_hole_2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
@@ -618,8 +617,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Rooms.yy",
+    "name": "course_1",
+    "path": "folders/Rooms/course_1.yy",
   },
   "resourceVersion": "1.0",
   "name": "rm_jonah_hole_2",

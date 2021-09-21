@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_sand",
-    "path": "sprites/spr_sand/spr_sand.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -21,16 +18,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_ball","path":"objects/obj_ball/obj_ball.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "floors",
-    "path": "folders/Objects/game/floors.yy",
+    "name": "game",
+    "path": "folders/Objects/game.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_sand",
+  "name": "obj_prototype_end",
   "tags": [],
   "resourceType": "GMObject",
 }

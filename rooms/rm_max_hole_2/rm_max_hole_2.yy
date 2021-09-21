@@ -31,8 +31,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_wall_wood_angle","path":"objects/obj_wall_wood_angle/obj_wall_wood_angle.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":89.99006,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":160.0,"y":224.0,"resourceVersion":"1.0","name":"inst_6A0109FE","tags":[],"resourceType":"GMRInstance",},
         {"properties":[
             {"propertyId":{"name":"par_strokes","path":"objects/obj_hole/obj_hole.yy",},"objectId":{"name":"obj_hole","path":"objects/obj_hole/obj_hole.yy",},"value":"6","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-            {"propertyId":{"name":"level_number","path":"objects/obj_hole/obj_hole.yy",},"objectId":{"name":"obj_hole","path":"objects/obj_hole/obj_hole.yy",},"value":"4","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-            {"propertyId":{"name":"next_hole","path":"objects/obj_hole/obj_hole.yy",},"objectId":{"name":"obj_hole","path":"objects/obj_hole/obj_hole.yy",},"value":"rm_max_hole_5","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+            {"propertyId":{"name":"obj_hole","path":"objects/obj_hole/obj_hole.yy",},"objectId":{"name":"obj_hole","path":"objects/obj_hole/obj_hole.yy",},"value":"4","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"obj_hole","path":"objects/obj_hole/obj_hole.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":288.0,"resourceVersion":"1.0","name":"inst_19420A09","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_wall_wood","path":"objects/obj_wall_wood/obj_wall_wood.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":320.0,"resourceVersion":"1.0","name":"inst_4F060CB1","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_wall_wood","path":"objects/obj_wall_wood/obj_wall_wood.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":320.0,"resourceVersion":"1.0","name":"inst_1D1CECBA","tags":[],"resourceType":"GMRInstance",},
@@ -436,8 +435,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Rooms.yy",
+    "name": "course_1",
+    "path": "folders/Rooms/course_1.yy",
   },
   "resourceVersion": "1.0",
   "name": "rm_max_hole_2",

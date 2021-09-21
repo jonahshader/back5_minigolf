@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_sand",
-    "path": "sprites/spr_sand/spr_sand.yy",
+    "name": "spr_water",
+    "path": "sprites/spr_water/spr_water.yy",
   },
   "solid": false,
   "visible": true,
@@ -22,6 +22,7 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_ball","path":"objects/obj_ball/obj_ball.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -30,7 +31,7 @@
     "path": "folders/Objects/game/floors.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_sand",
+  "name": "obj_water",
   "tags": [],
   "resourceType": "GMObject",
 }

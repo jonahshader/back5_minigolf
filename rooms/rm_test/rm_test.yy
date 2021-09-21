@@ -63,6 +63,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_wall_wood","path":"objects/obj_wall_wood/obj_wall_wood.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":-90.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":512.0,"y":64.0,"resourceVersion":"1.0","name":"inst_2C25391B","tags":[],"resourceType":"GMRInstance",},
         {"properties":[
             {"propertyId":{"name":"par_strokes","path":"objects/obj_hole/obj_hole.yy",},"objectId":{"name":"obj_hole","path":"objects/obj_hole/obj_hole.yy",},"value":"3","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+            {"propertyId":{"name":"first_hole_of_course","path":"objects/obj_hole/obj_hole.yy",},"objectId":{"name":"obj_hole","path":"objects/obj_hole/obj_hole.yy",},"value":"True","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"obj_hole","path":"objects/obj_hole/obj_hole.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":544.0,"y":192.0,"resourceVersion":"1.0","name":"inst_1AD9A75C","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_wall_wood","path":"objects/obj_wall_wood/obj_wall_wood.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":90.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":224.0,"y":192.0,"resourceVersion":"1.0","name":"inst_6E5C7085","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_wall_wood","path":"objects/obj_wall_wood/obj_wall_wood.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":90.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":224.0,"y":224.0,"resourceVersion":"1.0","name":"inst_132B70AA","tags":[],"resourceType":"GMRInstance",},
@@ -236,8 +237,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Rooms.yy",
+    "name": "course_1",
+    "path": "folders/Rooms/course_1.yy",
   },
   "resourceVersion": "1.0",
   "name": "rm_test",
