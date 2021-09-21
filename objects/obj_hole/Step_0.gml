@@ -12,3 +12,4 @@ if (nearest_ball != noone) {
 		nearest_ball.vspeed -= yd * BALL_ATTRACT_SPEED;
 	}
 }
+

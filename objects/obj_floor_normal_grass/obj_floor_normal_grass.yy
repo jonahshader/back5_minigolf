@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_sand",
-    "path": "sprites/spr_sand/spr_sand.yy",
+    "name": "spr_floor_normal_grass",
+    "path": "sprites/spr_floor_normal_grass/spr_floor_normal_grass.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,7 +21,6 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":true,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_ball","path":"objects/obj_ball/obj_ball.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
@@ -31,7 +30,7 @@
     "path": "folders/Objects/game/floors.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_sand",
+  "name": "obj_floor_normal_grass",
   "tags": [],
   "resourceType": "GMObject",
 }
