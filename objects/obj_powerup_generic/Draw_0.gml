@@ -2,8 +2,13 @@
 /// @DnDVersion : 1
 /// @DnDHash : 211713FB
 /// @DnDArgument : "colour" "powerup_color"
+/// @DnDArgument : "alpha" "false"
 image_blend = powerup_color & $ffffff;
-image_alpha = (powerup_color >> 24) / $ff;
+
+/// @DnDAction : YoYo Games.Drawing.Set_Alpha
+/// @DnDVersion : 1
+/// @DnDHash : 3260D527
+draw_set_alpha(1);
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Self
 /// @DnDVersion : 1

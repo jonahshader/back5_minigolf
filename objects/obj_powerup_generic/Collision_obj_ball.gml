@@ -4,16 +4,22 @@
 /// @DnDArgument : "expr" "transfer_color"
 if(transfer_color)
 {
-	/// @DnDAction : YoYo Games.Drawing.Set_Color
+	/// @DnDAction : YoYo Games.Common.Execute_Code
 	/// @DnDVersion : 1
-	/// @DnDHash : 7BDBE15A
-	/// @DnDComment : apply color to ball to indicate$(13_10)that the ball has the powerup effect
-	/// @DnDApplyTo : other
+	/// @DnDHash : 010FEA42
 	/// @DnDParent : 14BA7354
-	/// @DnDArgument : "color" "powerup_color"
-	with(other) {
-	draw_set_colour(powerup_color & $ffffff);
-	var l7BDBE15A_0=(powerup_color >> 24);
-	draw_set_alpha(l7BDBE15A_0 / $ff);
-	}
+	/// @DnDArgument : "code" "other.draw_color = powerup_color;"
+	other.draw_color = powerup_color;
 }
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 06560BC6
+/// @DnDArgument : "code" "var text_popup_instance = instance_create_layer(x, y - 16, layer, obj_text_popup);$(13_10)text_popup_instance.text = text_popup; // does this work?"
+var text_popup_instance = instance_create_layer(x, y - 16, layer, obj_text_popup);
+text_popup_instance.text = text_popup; // does this work?
+
+/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 3477BF04
+instance_destroy();
