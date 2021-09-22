@@ -1,3 +1,11 @@
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 63C8B899
+/// @DnDComment : boolean variables for every powerup. not sure if there is a$(13_10)better way to do this... could do enum if we wanted singular$(13_10)powerups to apply at once.
+/// @DnDArgument : "expr" "false"
+/// @DnDArgument : "var" "powerup_nullify_enabled"
+powerup_nullify_enabled = false;
+
 /// @DnDAction : YoYo Games.Common.Macro
 /// @DnDVersion : 1
 /// @DnDHash : 3B402565
@@ -23,32 +31,24 @@
 /// @DnDVersion : 1
 /// @DnDHash : 0D3E3D3A
 /// @DnDComment : friction_multiplier simply multiplies the combined calculated friction from$(13_10)the two macros CONST_FRICTION and PROPORTIONAL_FRICTION. differing$(13_10)surfaces like grass, sand, ice, etc can manipulate this variable when$(13_10)the ball is over that surface. for example, sand might set the$(13_10)friction_multiplier to 3 or something whereas ice would set it to 0.5.$(13_10)$(13_10)ready_to_hit is true when the ball is motionless$(13_10)$(13_10)mouse_dragging is true when the user clicks the screen while ready_to_hit is true$(13_10)$(13_10)hit_magnitude is the speed that will be added when the ball is hit. it is$(13_10)used in the hit line calculation
-/// @DnDInput : 6
+/// @DnDInput : 7
 /// @DnDArgument : "expr" "1.0"
 /// @DnDArgument : "expr_1" "true"
 /// @DnDArgument : "expr_2" "false"
+/// @DnDArgument : "expr_4" "x"
+/// @DnDArgument : "expr_5" "y"
+/// @DnDArgument : "expr_6" "$ffffffff"
 /// @DnDArgument : "var" "friction_multiplier"
 /// @DnDArgument : "var_1" "ready_to_hit"
 /// @DnDArgument : "var_2" "mouse_dragging"
 /// @DnDArgument : "var_3" "hit_magnitude"
 /// @DnDArgument : "var_4" "x_last_hit"
 /// @DnDArgument : "var_5" "y_last_hit"
+/// @DnDArgument : "var_6" "draw_color"
 friction_multiplier = 1.0;
 ready_to_hit = true;
 mouse_dragging = false;
 hit_magnitude = 0;
-x_last_hit = 0;
-y_last_hit = 0;
-
-/// @DnDAction : YoYo Games.Common.If_Undefined
-/// @DnDVersion : 1
-/// @DnDHash : 79F309A1
-/// @DnDDisabled : 1
-/// @DnDArgument : "var" "global.game_state"
-/// @DnDAction : YoYo Games.Common.Set_Global
-/// @DnDVersion : 1
-/// @DnDHash : 454F1239
-/// @DnDParent : 79F309A1
-/// @DnDArgument : "value" "GameState.GAME_RUNNING"
-/// @DnDArgument : "var" "game_state"
-global.game_state = GameState.GAME_RUNNING;
+x_last_hit = x;
+y_last_hit = y;
+draw_color = $ffffffff;
