@@ -32,6 +32,7 @@
     {"id":{"name":"rm_max_hole_6","path":"rooms/rm_max_hole_6/rm_max_hole_6.yy",},"order":8,},
     {"id":{"name":"pth_max_hole_6","path":"paths/pth_max_hole_6/pth_max_hole_6.yy",},"order":8,},
     {"id":{"name":"pth_max_hole_1","path":"paths/pth_max_hole_1/pth_max_hole_1.yy",},"order":3,},
+    {"id":{"name":"pth_empt","path":"paths/pth_empt/pth_empt.yy",},"order":10,},
     {"id":{"name":"spr_belt","path":"sprites/spr_belt/spr_belt.yy",},"order":0,},
     {"id":{"name":"obj_powerup_generic","path":"objects/obj_powerup_generic/obj_powerup_generic.yy",},"order":0,},
     {"id":{"name":"obj_prototype_end","path":"objects/obj_prototype_end/obj_prototype_end.yy",},"order":4,},
@@ -72,6 +73,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_belt_test","path":"rooms/rm_belt_test/rm_belt_test.yy",},},
     {"roomId":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
     {"roomId":{"name":"rm_max_hole_1","path":"rooms/rm_max_hole_1/rm_max_hole_1.yy",},},
     {"roomId":{"name":"rm_max_hole_3","path":"rooms/rm_max_hole_3/rm_max_hole_3.yy",},},
@@ -83,7 +85,6 @@
     {"roomId":{"name":"rm_max_hole_4","path":"rooms/rm_max_hole_4/rm_max_hole_4.yy",},},
     {"roomId":{"name":"rm_max_hole_6","path":"rooms/rm_max_hole_6/rm_max_hole_6.yy",},},
     {"roomId":{"name":"rm_prototype_end","path":"rooms/rm_prototype_end/rm_prototype_end.yy",},},
-    {"roomId":{"name":"rm_belt_test","path":"rooms/rm_belt_test/rm_belt_test.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -125,7 +126,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.4.580",
+    "IDEVersion": "2.3.4.583",
   },
   "resourceVersion": "1.4",
   "name": "back5_minigolf",
