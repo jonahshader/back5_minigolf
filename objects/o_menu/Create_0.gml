@@ -1,7 +1,7 @@
 
 menu_x = room_width/2;
 menu_y = y;
-button_h = 16;
+button_h = 24;
 button_w = 256;
 button_padding = 8;
 
