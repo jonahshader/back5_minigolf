@@ -17,7 +17,7 @@ for (var i = 0; i < instance_number(obj_ball); ++i) {
 	if (ball.y > y_max) y_max = ball.y;
 }
 
-var buffer = 35;
+var buffer = 30;
 x_max += buffer;
 y_max += buffer;
 x_min -= buffer;
