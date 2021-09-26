@@ -65,6 +65,7 @@
     {"id":{"name":"pth_max_hole_2","path":"paths/pth_max_hole_2/pth_max_hole_2.yy",},"order":4,},
     {"id":{"name":"pth_max_hole_4","path":"paths/pth_max_hole_4/pth_max_hole_4.yy",},"order":6,},
     {"id":{"name":"rm_max_hole_4","path":"rooms/rm_max_hole_4/rm_max_hole_4.yy",},"order":6,},
+    {"id":{"name":"obj_focus","path":"objects/obj_focus/obj_focus.yy",},"order":9,},
     {"id":{"name":"fnt_heading","path":"fonts/fnt_heading/fnt_heading.yy",},"order":1,},
     {"id":{"name":"spr_powerup_generic","path":"sprites/spr_powerup_generic/spr_powerup_generic.yy",},"order":0,},
     {"id":{"name":"obj_ball","path":"objects/obj_ball/obj_ball.yy",},"order":0,},
