@@ -17,10 +17,6 @@ repeat(buttons) {
 	if (i+1 <buttons) unfold[i+1] = min(1, unfold [i+1] + .005);
 }
 
-
-	
-
-
 if(menu_index != last_selected) {
 	part_particles_create (particle_effects, menu_x, menu_y + button_h/2 + (button_h + button_padding) * menu_index, box_flash, 1);
 	audio_play_sound(snd_menu_switch,1,false);
