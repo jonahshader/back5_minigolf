@@ -1,6 +1,6 @@
 var x_average = 0.0;
 var y_average = 0.0;
-
+if(instance_exists(obj_ball)){
 x_min = obj_ball.x;
 x_max = x_min;
 y_min = obj_ball.y;
@@ -40,3 +40,4 @@ if (x_max - x_min > MIN_WIDTH || y_max - y_min > MIN_HEIGHT) {
 
 x = (x_min + x_max) / 2;
 y = (y_min + y_max) / 2;
+}
