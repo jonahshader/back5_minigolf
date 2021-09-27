@@ -2,8 +2,8 @@
 /// @DnDVersion : 1
 /// @DnDHash : 087C0143
 /// @DnDApplyTo : other
-/// @DnDArgument : "expr" "powerup_nullify_enabled == false"
-with(other) var l087C0143_0 = powerup_nullify_enabled == false;
+/// @DnDArgument : "expr" "(powerup_nullify_enabled == false) && (target_tube == noone)"
+with(other) var l087C0143_0 = (powerup_nullify_enabled == false) && (target_tube == noone);
 if(l087C0143_0)
 {
 	/// @DnDAction : YoYo Games.Common.Variable
