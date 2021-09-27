@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"spr_powerup_split","path":"sprites/spr_powerup_split/spr_powerup_split.yy",},"order":1,},
+    {"id":{"name":"obj_button_stays_on","path":"objects/obj_button_stays_on/obj_button_stays_on.yy",},"order":4,},
     {"id":{"name":"obj_sand_angle","path":"objects/obj_sand_angle/obj_sand_angle.yy",},"order":2,},
     {"id":{"name":"obj_water_angle","path":"objects/obj_water_angle/obj_water_angle.yy",},"order":4,},
     {"id":{"name":"obj_sand","path":"objects/obj_sand/obj_sand.yy",},"order":1,},
