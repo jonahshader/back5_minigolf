@@ -36,6 +36,7 @@
     {"id":{"name":"spr_belt","path":"sprites/spr_belt/spr_belt.yy",},"order":0,},
     {"id":{"name":"obj_powerup_generic","path":"objects/obj_powerup_generic/obj_powerup_generic.yy",},"order":0,},
     {"id":{"name":"obj_prototype_end","path":"objects/obj_prototype_end/obj_prototype_end.yy",},"order":4,},
+    {"id":{"name":"rm_max_first_complex","path":"rooms/rm_max_first_complex/rm_max_first_complex.yy",},"order":0,},
     {"id":{"name":"obj_powerup_nullify","path":"objects/obj_powerup_nullify/obj_powerup_nullify.yy",},"order":1,},
     {"id":{"name":"rm_max_hole_5","path":"rooms/rm_max_hole_5/rm_max_hole_5.yy",},"order":7,},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":5,},
@@ -73,6 +74,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_max_first_complex","path":"rooms/rm_max_first_complex/rm_max_first_complex.yy",},},
     {"roomId":{"name":"rm_belt_test","path":"rooms/rm_belt_test/rm_belt_test.yy",},},
     {"roomId":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
     {"roomId":{"name":"rm_max_hole_1","path":"rooms/rm_max_hole_1/rm_max_hole_1.yy",},},
@@ -117,6 +119,7 @@
     {"folderPath":"folders/Objects/game/interactable.yy","order":8,"resourceVersion":"1.0","name":"interactable","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/game/interactable.yy","order":6,"resourceVersion":"1.0","name":"interactable","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Rooms/test_rooms.yy","order":12,"resourceVersion":"1.0","name":"test_rooms","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Rooms/course_2.yy","order":13,"resourceVersion":"1.0","name":"course_2","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
@@ -126,7 +129,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.4.583",
+    "IDEVersion": "2.3.4.580",
   },
   "resourceVersion": "1.4",
   "name": "back5_minigolf",
