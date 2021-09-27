@@ -56,7 +56,6 @@
     {"id":{"name":"pth_max_hole_5","path":"paths/pth_max_hole_5/pth_max_hole_5.yy",},"order":7,},
     {"id":{"name":"obj_belt","path":"objects/obj_belt/obj_belt.yy",},"order":0,},
     {"id":{"name":"obj_water","path":"objects/obj_water/obj_water.yy",},"order":3,},
-    {"id":{"name":"rm_tutorial_1","path":"rooms/rm_tutorial_1/rm_tutorial_1.yy",},"order":0,},
     {"id":{"name":"spr_water","path":"sprites/spr_water/spr_water.yy",},"order":4,},
     {"id":{"name":"rm_belt_test","path":"rooms/rm_belt_test/rm_belt_test.yy",},"order":0,},
     {"id":{"name":"rm_tube_test","path":"rooms/rm_tube_test/rm_tube_test.yy",},"order":1,},
@@ -90,7 +89,6 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm_tutorial_1","path":"rooms/rm_tutorial_1/rm_tutorial_1.yy",},},
     {"roomId":{"name":"rm_max_complex_2","path":"rooms/rm_max_complex_2/rm_max_complex_2.yy",},},
     {"roomId":{"name":"rm_max_complex_1","path":"rooms/rm_max_complex_1/rm_max_complex_1.yy",},},
     {"roomId":{"name":"rm_door_test","path":"rooms/rm_door_test/rm_door_test.yy",},},
@@ -139,7 +137,6 @@
     {"folderPath":"folders/Objects/game/interactable.yy","order":8,"resourceVersion":"1.0","name":"interactable","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/game/interactable.yy","order":6,"resourceVersion":"1.0","name":"interactable","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Rooms/test_rooms.yy","order":12,"resourceVersion":"1.0","name":"test_rooms","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Rooms/tutorial_course.yy","order":13,"resourceVersion":"1.0","name":"tutorial_course","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Rooms/course_2.yy","order":13,"resourceVersion":"1.0","name":"course_2","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
