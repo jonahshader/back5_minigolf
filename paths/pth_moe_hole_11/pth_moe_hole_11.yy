@@ -9,8 +9,8 @@
     {"speed":2.0,"x":413.074829,"y":141.347015,},
   ],
   "parent": {
-    "name": "course_1",
-    "path": "folders/Paths/course_1.yy",
+    "name": "course_2",
+    "path": "folders/Paths/course_2.yy",
   },
   "resourceVersion": "1.0",
   "name": "pth_moe_hole_11",
