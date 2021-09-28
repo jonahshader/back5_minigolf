@@ -28,8 +28,8 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "game",
-    "path": "folders/Objects/game.yy",
+    "name": "logical",
+    "path": "folders/Objects/game/logical.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_camera",
