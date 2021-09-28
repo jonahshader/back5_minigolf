@@ -91,6 +91,7 @@
     {"id":{"name":"obj_tube_corner","path":"objects/obj_tube_corner/obj_tube_corner.yy",},"order":7,},
     {"id":{"name":"rm_course_1_end","path":"rooms/rm_course_1_end/rm_course_1_end.yy",},"order":14,},
     {"id":{"name":"spr_powerup_nullify","path":"sprites/spr_powerup_nullify/spr_powerup_nullify.yy",},"order":0,},
+    {"id":{"name":"rm_spash_screen","path":"rooms/rm_spash_screen/rm_spash_screen.yy",},"order":1,},
     {"id":{"name":"fnt_body","path":"fonts/fnt_body/fnt_body.yy",},"order":0,},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":0,},
     {"id":{"name":"pth_max_hole_2","path":"paths/pth_max_hole_2/pth_max_hole_2.yy",},"order":4,},
@@ -117,6 +118,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_spash_screen","path":"rooms/rm_spash_screen/rm_spash_screen.yy",},},
     {"roomId":{"name":"rm_main_menu","path":"rooms/rm_main_menu/rm_main_menu.yy",},},
     {"roomId":{"name":"rm_tutorial_1","path":"rooms/rm_tutorial_1/rm_tutorial_1.yy",},},
     {"groupName":"course_2","children":[

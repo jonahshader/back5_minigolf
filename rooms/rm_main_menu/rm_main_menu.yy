@@ -29,7 +29,6 @@
             {"propertyId":{"name":"btn_text","path":"objects/obj_menu_button_to_room/obj_menu_button_to_room.yy",},"objectId":{"name":"obj_menu_button_to_room","path":"objects/obj_menu_button_to_room/obj_menu_button_to_room.yy",},"value":"\"Tutorial Course\"","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
             {"propertyId":{"name":"btn_goto_room","path":"objects/obj_menu_button_to_room/obj_menu_button_to_room.yy",},"objectId":{"name":"obj_menu_button_to_room","path":"objects/obj_menu_button_to_room/obj_menu_button_to_room.yy",},"value":"rm_tutorial_1","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"obj_menu_button_to_room","path":"objects/obj_menu_button_to_room/obj_menu_button_to_room.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":8.0,"scaleY":1.2,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.0,"y":128.0,"resourceVersion":"1.0","name":"inst_7D1EFB11","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_splash","path":"objects/obj_splash/obj_splash.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"inst_6ABAD340","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
         {"spriteId":{"name":"spr_logo","path":"sprites/spr_logo/spr_logo.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":3.0,"scaleY":3.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":189.0,"y":7.0,"resourceVersion":"1.0","name":"graphic_301AB9B6","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -44,7 +43,6 @@
     {"name":"inst_67349DFF","path":"rooms/rm_main_menu/rm_main_menu.yy",},
     {"name":"inst_A725211","path":"rooms/rm_main_menu/rm_main_menu.yy",},
     {"name":"inst_7D1EFB11","path":"rooms/rm_main_menu/rm_main_menu.yy",},
-    {"name":"inst_6ABAD340","path":"rooms/rm_main_menu/rm_main_menu.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
