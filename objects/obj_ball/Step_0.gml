@@ -62,7 +62,7 @@ if(global.game_state == GameState.GAME_RUNNING)
 		/// @DnDVersion : 1
 		/// @DnDHash : 2ED24E85
 		/// @DnDParent : 7A23DC02
-		/// @DnDArgument : "code" "// calculate hit magnitude$(13_10)var mouse_x_to_ball = x - mouse_x;$(13_10)var mouse_y_to_ball = y - mouse_y;$(13_10)var magnitude = sqrt(mouse_x_to_ball * mouse_x_to_ball + mouse_y_to_ball * mouse_y_to_ball);$(13_10)$(13_10)$(13_10)magnitude *= MOUSE_DIST_TO_SPEED;$(13_10)if (magnitude > MAX_HIT_SPEED) {$(13_10)	magnitude = MAX_HIT_SPEED;$(13_10)}$(13_10)$(13_10)hit_magnitude = magnitude;$(13_10)$(13_10)// calculate potential wall collision$(13_10)var collider = instance_place(x + hspeed, y + vspeed, obj_wall);$(13_10)move_bounce_solid(true);$(13_10)if (collider != noone) {$(13_10)	speed *= collider.bounciness;$(13_10)	audio_play_sound(collider.bounce_sound, 1, 0);$(13_10)}$(13_10)"
+		/// @DnDArgument : "code" "// calculate hit magnitude$(13_10)var mouse_x_to_ball = x - mouse_x;$(13_10)var mouse_y_to_ball = y - mouse_y;$(13_10)var magnitude = sqrt(mouse_x_to_ball * mouse_x_to_ball + mouse_y_to_ball * mouse_y_to_ball);$(13_10)$(13_10)$(13_10)magnitude *= MOUSE_DIST_TO_SPEED;$(13_10)if (magnitude > MAX_HIT_SPEED) {$(13_10)	magnitude = MAX_HIT_SPEED;$(13_10)}$(13_10)$(13_10)hit_magnitude = magnitude;$(13_10)$(13_10)// calculate potential wall collision$(13_10)var collider = instance_place(x + hspeed, y + vspeed, obj_wall);$(13_10)move_bounce_solid(true);$(13_10)if (collider != noone) {$(13_10)	speed *= collider.bounciness;$(13_10)	$(13_10)	// Set Audio Volume$(13_10)	audio_sound_gain(collider.bounce_sound, (magnitude/ MAX_HIT_SPEED) * .5, 0);$(13_10)	// Play Audio$(13_10)	audio_play_sound(collider.bounce_sound, 1, 0);$(13_10)}$(13_10)"
 		// calculate hit magnitude
 		var mouse_x_to_ball = x - mouse_x;
 		var mouse_y_to_ball = y - mouse_y;
@@ -81,6 +81,10 @@ if(global.game_state == GameState.GAME_RUNNING)
 		move_bounce_solid(true);
 		if (collider != noone) {
 			speed *= collider.bounciness;
+			
+			// Set Audio Volume
+			audio_sound_gain(collider.bounce_sound, (magnitude/ MAX_HIT_SPEED) * .5, 0);
+			// Play Audio
 			audio_play_sound(collider.bounce_sound, 1, 0);
 		}
 	
