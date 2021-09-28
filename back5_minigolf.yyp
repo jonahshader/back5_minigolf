@@ -35,6 +35,7 @@
     {"id":{"name":"rm_jonah_hole_3","path":"rooms/rm_jonah_hole_3/rm_jonah_hole_3.yy",},"order":2,},
     {"id":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"order":3,},
     {"id":{"name":"pth_max_hole_3","path":"paths/pth_max_hole_3/pth_max_hole_3.yy",},"order":5,},
+    {"id":{"name":"rm_ruar_hole_1","path":"rooms/rm_ruar_hole_1/rm_ruar_hole_1.yy",},"order":9,},
     {"id":{"name":"spr_background_grass","path":"sprites/spr_background_grass/spr_background_grass.yy",},"order":0,},
     {"id":{"name":"spr_waves","path":"sprites/spr_waves/spr_waves.yy",},"order":6,},
     {"id":{"name":"spr_tube_corner","path":"sprites/spr_tube_corner/spr_tube_corner.yy",},"order":8,},
@@ -139,6 +140,7 @@
     {"roomId":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
     {"roomId":{"name":"rm_prototype_end","path":"rooms/rm_prototype_end/rm_prototype_end.yy",},},
     {"roomId":{"name":"rm_course_2_end","path":"rooms/rm_course_2_end/rm_course_2_end.yy",},},
+    {"roomId":{"name":"rm_ruar_hole_1","path":"rooms/rm_ruar_hole_1/rm_ruar_hole_1.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
