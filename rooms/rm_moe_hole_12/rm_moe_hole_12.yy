@@ -720,8 +720,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "course_1",
-    "path": "folders/Rooms/course_1.yy",
+    "name": "course_2",
+    "path": "folders/Rooms/course_2.yy",
   },
   "resourceVersion": "1.0",
   "name": "rm_moe_hole_12",
