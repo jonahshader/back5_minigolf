@@ -36,8 +36,8 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "interactable",
-    "path": "folders/Objects/game/interactable.yy",
+    "name": "game",
+    "path": "folders/Objects/game.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_ball",

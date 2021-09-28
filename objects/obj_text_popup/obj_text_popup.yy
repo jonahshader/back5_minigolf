@@ -25,8 +25,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "logical",
-    "path": "folders/Objects/game/logical.yy",
+    "name": "game",
+    "path": "folders/Objects/game.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_text_popup",
