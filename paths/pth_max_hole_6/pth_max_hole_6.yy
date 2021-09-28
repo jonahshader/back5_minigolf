@@ -9,8 +9,8 @@
     {"speed":50.0,"x":-500.0,"y":0.0,},
   ],
   "parent": {
-    "name": "course_1",
-    "path": "folders/Paths/course_1.yy",
+    "name": "course_2",
+    "path": "folders/Paths/course_2.yy",
   },
   "resourceVersion": "1.0",
   "name": "pth_max_hole_6",
