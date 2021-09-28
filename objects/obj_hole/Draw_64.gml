@@ -20,7 +20,6 @@ draw_rectangle(10, 70, 110, 10, 0);
 /// @DnDVersion : 1
 /// @DnDHash : 2C2256F3
 /// @DnDArgument : "font" "fnt_body"
-/// @DnDSaveInfo : "font" "fnt_body"
 draw_set_font(fnt_body);
 
 /// @DnDAction : YoYo Games.Drawing.Set_Alignment
@@ -96,7 +95,6 @@ if(global.game_state != GameState.GAME_RUNNING)
 	/// @DnDHash : 46C11CEA
 	/// @DnDParent : 79582BC6
 	/// @DnDArgument : "font" "fnt_heading"
-	/// @DnDSaveInfo : "font" "fnt_heading"
 	draw_set_font(fnt_heading);
 
 	/// @DnDAction : YoYo Games.Drawing.Set_Alignment

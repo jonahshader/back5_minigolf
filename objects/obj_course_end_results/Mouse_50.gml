@@ -2,4 +2,5 @@
 /// @DnDVersion : 1
 /// @DnDHash : 3768F619
 /// @DnDArgument : "room" "rm_main_menu"
+/// @DnDSaveInfo : "room" "rm_main_menu"
 room_goto(rm_main_menu);

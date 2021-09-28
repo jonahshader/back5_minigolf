@@ -14,7 +14,6 @@ draw_self();
 /// @DnDVersion : 1
 /// @DnDHash : 035B479D
 /// @DnDArgument : "font" "fnt_heading"
-/// @DnDSaveInfo : "font" "fnt_heading"
 draw_set_font(fnt_heading);
 
 /// @DnDAction : YoYo Games.Drawing.Set_Alignment
