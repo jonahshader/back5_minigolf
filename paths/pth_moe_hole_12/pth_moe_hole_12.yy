@@ -1,19 +1,17 @@
 {
-  "kind": 1,
+  "kind": 0,
   "closed": false,
   "precision": 4,
   "points": [
-    {"speed":75.0,"x":0.0,"y":0.0,},
-    {"speed":75.0,"x":160.0,"y":100.0,},
-    {"speed":75.0,"x":302.0,"y":88.0,},
-    {"speed":75.0,"x":350.0,"y":0.0,},
+    {"speed":45.0,"x":-2.04760742,"y":-2.19042969,},
+    {"speed":25.0,"x":-353.61908,"y":162.095276,},
   ],
   "parent": {
     "name": "course_1",
     "path": "folders/Paths/course_1.yy",
   },
   "resourceVersion": "1.0",
-  "name": "pth_jonah_hole_3",
+  "name": "pth_moe_hole_12",
   "tags": [],
   "resourceType": "GMPath",
 }
