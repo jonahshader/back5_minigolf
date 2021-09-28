@@ -136,10 +136,6 @@
     {"roomId":{"name":"rm_belt_test","path":"rooms/rm_belt_test/rm_belt_test.yy",},},
     {"roomId":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
     {"roomId":{"name":"rm_prototype_end","path":"rooms/rm_prototype_end/rm_prototype_end.yy",},},
-    {"roomId":{"name":"rm_moe_hole_11","path":"rooms/rm_moe_hole_11/rm_moe_hole_11.yy",},},
-    {"roomId":{"name":"rm_moe_hole_12","path":"rooms/rm_moe_hole_12/rm_moe_hole_12.yy",},},
-    {"roomId":{"name":"rm_moe_hole_10","path":"rooms/rm_moe_hole_10/rm_moe_hole_10.yy",},},
-    {"roomId":{"name":"rm_moe_hole_13","path":"rooms/rm_moe_hole_13/rm_moe_hole_13.yy",},},
     {"roomId":{"name":"rm_course_2_end","path":"rooms/rm_course_2_end/rm_course_2_end.yy",},},
   ],
   "Folders": [
