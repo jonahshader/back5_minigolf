@@ -273,6 +273,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_wall_wood","path":"objects/obj_wall_wood/obj_wall_wood.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":-90.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1984.0,"y":1408.0,"resourceVersion":"1.0","name":"inst_10CB67E3","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_wall_wood","path":"objects/obj_wall_wood/obj_wall_wood.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":-90.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1984.0,"y":1440.0,"resourceVersion":"1.0","name":"inst_47DB443","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_wall_wood_angle","path":"objects/obj_wall_wood_angle/obj_wall_wood_angle.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":180.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1760.0,"y":1184.0,"resourceVersion":"1.0","name":"inst_733CBB65","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_wall_wood","path":"objects/obj_wall_wood/obj_wall_wood.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1568.0,"y":1312.0,"resourceVersion":"1.0","name":"inst_264F2D08","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[
@@ -1130,6 +1131,7 @@
     {"name":"inst_76C9DDFB","path":"rooms/rm_tutorial_1/rm_tutorial_1.yy",},
     {"name":"inst_34E93EEC","path":"rooms/rm_tutorial_1/rm_tutorial_1.yy",},
     {"name":"inst_6DD5B363","path":"rooms/rm_tutorial_1/rm_tutorial_1.yy",},
+    {"name":"inst_264F2D08","path":"rooms/rm_tutorial_1/rm_tutorial_1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
